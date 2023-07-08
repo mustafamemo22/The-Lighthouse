@@ -1,12 +1,4 @@
-// Changing the style of scroll bar
-// window.onscroll = function() {myFunction()};
-		
-// function myFunction() {
-// 	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-// 	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-// 	var scrolled = (winScroll / height) * 100;
-// 	document.getElementById("myBar").style.width = scrolled + "%"; 
-// }
+
 
 // text and img index page
 function scrollAppear() {
@@ -27,19 +19,6 @@ function scrollAppear() {
 
 window.addEventListener('scroll', scrollAppear);
 
-// For switching between navigation menus in mobile mode (cc)
-// var i = 2;
-// function switchTAB() {
-// 	var x = document.getElementById("list-switch");
-// 	if(i%2 == 0) {
-// 		document.getElementById("list-switch").style= "display: grid; height: 50vh; margin-left: 5%;";
-// 		document.getElementById("search-switch").style= "display: block; margin-left: 5%;";
-// 	}else {
-// 		document.getElementById("list-switch").style= "display: none;";
-// 		document.getElementById("search-switch").style= "display: none;";
-// 	}
-// 	i++;
-// }
 
 // For LOGIN
 var x = document.getElementById("login");
@@ -82,25 +61,7 @@ function google() {
 }
 // login end
 // QUIZ Page
-// function quizt(frame) {
-//   document.getElementById('f1').style='display: none;';
-//   document.getElementById('f2').style='display: none;';
-//   document.getElementById('f3').style='display: none;';
-//   document.getElementById('f4').style='display: none;';
-//   document.getElementById('f5').style='display: none;';
-//   document.getElementById('f6').style='display: none;';
-//   document.getElementById('f7').style='display: none;';
-//   document.getElementById('f8').style='display: none;';
-//   if(frame == 1) document.getElementById('f1').style = 'display: block';
-//   else if(frame == 2) document.getElementById('f2').style = 'display: block';
-//   else if(frame == 3) document.getElementById('f3').style = 'display: block';
-//   else if(frame == 4) document.getElementById('f4').style = 'display: block';
-//   else if(frame == 5) document.getElementById('f5').style = 'display: block';
-//   else if(frame == 6) document.getElementById('f6').style = 'display: block';
-//   else if(frame == 7) document.getElementById('f7').style = 'display: block';
-//   else if(frame == 8) document.getElementById('f8').style = 'display: block';
-//   else alert('error');
-// }
+
 function quizt(frame) {
   for (let i = 1; i <= 8; i++) {
     document.getElementById('f' + i).style.display = 'none';
@@ -123,43 +84,6 @@ function startquiz() {
 function searchdisplay() {
   document.getElementById('searchpanel').style.display="block";
 }
-
-// function display(n) {
-//   var img1 = document.getElementById('img1');
-//   var img2 = document.getElementById('img2');
-//   var img3 = document.getElementById('img3');
-//   var img4 = document.getElementById('img4');
-//   var s1 = document.getElementById('s1');
-//   var s2 = document.getElementById('s2');
-//   var s3 = document.getElementById('s3');
-//   var s4 = document.getElementById('s4');
-
-//   img1.style = 'display: none;';
-//   img2.style = 'display: none;';
-//   img3.style = 'display: none;';
-//   img4.style = 'display: none;';
-//   s1.style = 'background: #DF2771; color: #FFF;';
-//   s2.style = 'background: #DF2771; color: #FFF;';
-//   s3.style = 'background: #DF2771; color: #FFF;';
-//   s4.style = 'background: #DF2771; color: #FFF;';
-
-//   if(n==1) {
-//     img1.style = 'display: block;';
-//     s1.style = 'background: #E5E8EF; color: #DF2771;';
-//   }
-//   if(n==2) {
-//     img2.style = 'display: block;';
-//     s2.style = 'background: #E5E8EF; color: #DF2771;';
-//   }
-//   if(n==3) {
-//     img3.style = 'display: block;';
-//     s3.style = 'background: #E5E8EF; color: #DF2771;';
-//   }
-//   if(n==4) {
-//     img4.style = 'display: block;';
-//     s4.style = 'background: #E5E8EF; color: #DF2771;';
-//   } 
-// }
 
 // index sidemenu 
 
